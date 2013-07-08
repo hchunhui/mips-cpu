@@ -1,0 +1,10 @@
+00000001
+00000001
+0000000a
+
+
+
+
+the program will compute the sum of the numbers from 1 to 10,
+inclusive.At the end of the program (when it is just looping) the
+result value, 55, should end up in data memory location 0

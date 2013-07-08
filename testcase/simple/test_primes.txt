@@ -1,0 +1,22 @@
+main:
+sub $0,$0,$0
+addi $2,$0,15
+addi $1,$0,1
+loop1:
+addi $1,$1,1
+add $3,$1,$0
+loop2:
+add $3,$3,$1
+slt $4,$2,$3
+bne $4,$0,done
+addi $0,$0,0
+sll $5,$3,2
+j loop2
+addi $0,$0,0
+sw $0,0($5)
+done:
+bne $1,$2,loop1
+addi $0,$0,0
+halt:
+beq $0,$0,halt
+addi $0,$0,0

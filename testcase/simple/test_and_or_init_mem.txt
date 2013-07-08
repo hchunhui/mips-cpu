@@ -1,0 +1,22 @@
+00000014
+00000000
+00000000
+00000000
+00000000
+430a1f9b
+728cd2e3
+
+
+
+
+
+
+computes A AND B and places the result in memory location 4
+computes A OR B and places the result in memory location 8
+Initially, data memory is configured as follows:
+location 0: 14 hex (= 20 decimal)
+location 20: the variable A
+location 24: the variable B
+here:
+A: 430a1f9b hex
+B: 728cd2e3 hex

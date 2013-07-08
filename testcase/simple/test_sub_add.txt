@@ -1,0 +1,22 @@
+main:
+sub $0,$0,$0 
+lw $1,0($0) 
+addi $0,$0,0 
+lw $2,4($0)
+addi $0,$0,0 
+lw $3,8($0) 
+addi $0,$0,0 
+sub $4,$4,$4 
+lab5:
+add $4,$2,$4 
+slt $5,$2,$3 
+beq $5,$0,lab2 
+addi $0,$0,0 
+add $2,$1,$2 
+beq $0,$0,lab5 
+lab2:
+addi $0,$0,0 
+sw $4,0($0) 
+halt:
+beq $0,$0,halt
+addi $0,$0,0 
