@@ -1,0 +1,19 @@
+五阶段流水MIPS like CPU
+
+语言：Verilog
+平台：Quartus II 6.0
+说明：
+ doc/        文档
+ mips/       实现
+ testcase/   测试集
+ download2/  实验平台文件
+ compiler/   CPU的汇编器和C1编译器
+             相关项目：
+	      C1编译器
+	      https://github.com/hchunhui/compiler
+	      MIPS汇编器
+	      https://github.com/hchunhui/mips-as
+
+2012年6月 完成
+2013年7月 整理
+
